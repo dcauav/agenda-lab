@@ -1,0 +1,27 @@
+{
+  "name": "agenda-lab",
+  "version": "1.0.0",
+  "description": "API de serviços de agenda de horários",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcauav/agenda-lab.git"
+  },
+  "author": "DCauaV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcauav/agenda-lab/issues"
+  },
+  "homepage": "https://github.com/dcauav/agenda-lab#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "node-oauth2-server": "^2.4.0",
+    "nodemon": "^2.0.20"
+  }
+}
